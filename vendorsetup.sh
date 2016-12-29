@@ -1,0 +1,3 @@
+add_lunch_combo aosp_oneplus3-eng
+add_lunch_combo aosp_oneplus3-user
+add_lunch_combo aosp_oneplus3-userdebug
