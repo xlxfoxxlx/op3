@@ -306,5 +306,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
+# DU-Updater
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.du.updater=oneplus3
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
