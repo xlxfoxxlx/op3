@@ -109,7 +109,7 @@ void vendor_load_properties() {
     char rf_version[PROP_VALUE_MAX];
     int rc;
 
-    rc = property_get("ro.du.device", device, NULL);
+    rc = property_get("ro.aosip.device", device, NULL);
     if (!rc || strncmp(device, "oneplus3", PROP_VALUE_MAX))
         return;
 
